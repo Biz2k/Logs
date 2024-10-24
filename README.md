@@ -1,3 +1,215 @@
+Errors only
+
+biz@acer-biz:~$ journalctl -p err
+сен 19 18:57:04 acer-picasso systemd[1]: Failed to find module 'autofs4'
+сен 19 18:57:04 acer-picasso systemd-modules-load[832]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-b>
+сен 19 18:57:04 acer-picasso systemd-modules-load[832]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+сен 19 18:57:07 acer-picasso systemd[1]: Failed to start Load Kernel Modules.
+-- Boot a2b89cbcf27447acb0bfca38aef7e26c --
+ноя 21 22:57:20 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot 5a3791ed702947fabd9f66c31b8ea0f7 --
+ноя 21 22:57:20 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot 976ae8d7f03c4605b97ed57c8e148ef0 --
+ноя 21 22:57:21 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot bc62f3ee903645cba3a097899ef5d258 --
+ноя 21 22:57:21 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot 1f15e342e1124e46951a6571cf968ced --
+ноя 21 22:57:21 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot d855580d8d8040ef859138411eb35a41 --
+ноя 21 22:57:21 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot d006096dbacf4587a09106c8aa760e1c --
+ноя 21 22:57:21 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot fae8f5028c6f476a8a7fd6008770a8e2 --
+ноя 21 22:57:21 acer-biz systemd[1]: Failed to find module 'autofs4'
+-- Boot 5a3791ed702947fabd9f66c31b8ea0f7 --
+ноя 21 22:57:20 acer-biz systemd-modules-load[839]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:20 acer-biz systemd-modules-load[839]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot 976ae8d7f03c4605b97ed57c8e148ef0 --
+ноя 21 22:57:22 acer-biz systemd-modules-load[856]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:22 acer-biz systemd-modules-load[856]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot bc62f3ee903645cba3a097899ef5d258 --
+ноя 21 22:57:22 acer-biz systemd-modules-load[859]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:22 acer-biz systemd-modules-load[859]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot 1f15e342e1124e46951a6571cf968ced --
+ноя 21 22:57:22 acer-biz systemd-modules-load[859]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+-- Boot d855580d8d8040ef859138411eb35a41 --
+ноя 21 22:57:22 acer-biz systemd-modules-load[858]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+-- Boot 1f15e342e1124e46951a6571cf968ced --
+ноя 21 22:57:22 acer-biz systemd-modules-load[859]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot d855580d8d8040ef859138411eb35a41 --
+ноя 21 22:57:22 acer-biz systemd-modules-load[858]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot d006096dbacf4587a09106c8aa760e1c --
+ноя 21 22:57:22 acer-biz systemd-modules-load[837]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:22 acer-biz systemd-modules-load[837]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot fae8f5028c6f476a8a7fd6008770a8e2 --
+ноя 21 22:57:22 acer-biz systemd-modules-load[837]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:22 acer-biz systemd-modules-load[837]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot bc62f3ee903645cba3a097899ef5d258 --
+ноя 21 22:57:23 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot 976ae8d7f03c4605b97ed57c8e148ef0 --
+ноя 21 22:57:23 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot d855580d8d8040ef859138411eb35a41 --
+ноя 21 22:57:23 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot fae8f5028c6f476a8a7fd6008770a8e2 --
+ноя 21 22:57:23 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot a2b89cbcf27447acb0bfca38aef7e26c --
+ноя 21 22:57:24 acer-biz systemd-modules-load[839]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:24 acer-biz systemd-modules-load[839]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+-- Boot d006096dbacf4587a09106c8aa760e1c --
+ноя 21 22:57:23 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot 1f15e342e1124e46951a6571cf968ced --
+ноя 21 22:57:23 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot 5a3791ed702947fabd9f66c31b8ea0f7 --
+ноя 21 22:57:22 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot a2b89cbcf27447acb0bfca38aef7e26c --
+ноя 21 22:57:24 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+-- Boot d9932fdea3634d21a7cde3712a360b1f --
+окт 23 23:00:06 acer-picasso kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 23 23:00:12 acer-picasso systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 23 23:00:12 acer-picasso systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 23 23:00:14 acer-picasso bluetoothd[971]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 23 23:00:14 acer-picasso bluetoothd[971]: Failed to clear UUIDs: Failed (0x03)
+окт 23 23:02:07 acer-picasso ubiquity[1144]: Unable to determine the release.
+окт 23 23:15:26 acer-picasso plugininstall.py[3938]: log-output -t ubiquity chroot / python3.10 /usr/lib/python3.10/py_compile.py
+окт 23 23:15:28 acer-picasso plugininstall.py[3938]: log-output -t ubiquity chroot / python3.10 /usr/lib/python3.10/py_compile.py
+окт 23 23:28:46 acer-biz plugininstall.py[3938]: log-output -t ubiquity /usr/share/ubiquity/zsys-setup finalize
+окт 23 23:29:11 acer-biz plugininstall.py[3938]: log-output -t ubiquity umount /cdrom
+окт 23 23:41:48 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 23 23:41:48 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 23 23:42:21 acer-biz bluetoothd[14265]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 23 23:42:21 acer-biz bluetoothd[14265]: Failed to clear UUIDs: Failed (0x03)
+окт 23 23:42:21 acer-biz pulseaudio[14112]: Found duplicated D-Bus path for adapter /org/bluez/hci0
+окт 23 23:46:58 acer-biz NetworkManager[969]: <error> [1729720018.5323] audit: failed to open auditd socket: Protocol not supported
+окт 23 23:47:31 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 23 23:47:31 acer-biz pulseaudio[14112]: Failed to create permanent mapping for memfd region with ID = 2221030329
+окт 23 23:49:53 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 23 23:49:53 acer-biz pulseaudio[14112]: Failed to create permanent mapping for memfd region with ID = 3689250480
+окт 23 23:53:59 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 23 23:53:59 acer-biz pulseaudio[14112]: Failed to create permanent mapping for memfd region with ID = 2399038805
+окт 23 23:53:59 acer-biz pulseaudio[14112]: Failed to register memfd mempool. Reason: could not attach memfd SHM ID to pipe
+окт 23 23:53:59 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 23 23:53:59 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 23 23:53:59 acer-biz pulseaudio[14112]: Failed to create permanent mapping for memfd region with ID = 1200692077
+окт 24 01:14:42 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 24 01:14:42 acer-biz pulseaudio[14112]: Failed to create permanent mapping for memfd region with ID = 3810295917
+окт 24 02:44:34 acer-biz bluetoothd[5461]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 02:44:34 acer-biz bluetoothd[5461]: Failed to clear UUIDs: Failed (0x03)
+окт 24 02:46:46 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 02:46:46 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 02:46:53 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 02:46:53 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 02:59:58 acer-biz systemd[1]: Failed to start Journal Service.
+окт 24 02:55:10 acer-biz systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+окт 24 03:00:34 acer-biz systemd[1]: Failed to start Journal Service.
+окт 24 03:16:15 acer-biz WebKitWebProces[6333]: WebProcess didn't exit as expected after the UI process connection was closed
+окт 24 03:35:29 acer-biz pulseaudio[14112]: mmap() failed: Cannot allocate memory
+окт 24 03:35:29 acer-biz pulseaudio[14112]: Failed to create permanent mapping for memfd region with ID = 4259879102
+-- Boot d006096dbacf4587a09106c8aa760e1c --
+окт 24 03:57:43 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 03:57:49 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 03:57:49 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 03:57:51 acer-biz bluetoothd[1050]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 03:57:51 acer-biz bluetoothd[1050]: Failed to clear UUIDs: Failed (0x03)
+окт 24 04:04:41 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:04:41 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 3132901235
+окт 24 04:11:37 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:11:37 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 4117083671
+окт 24 04:12:58 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:12:58 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 267190710
+окт 24 04:12:58 acer-biz pulseaudio[1274]: Failed to register memfd mempool. Reason: could not attach memfd SHM ID to pipe
+окт 24 04:12:58 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:12:58 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:12:58 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 692369222
+окт 24 04:13:44 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:13:44 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 935828374
+окт 24 04:13:47 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:13:47 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 267190710
+окт 24 04:13:47 acer-biz pulseaudio[1274]: Failed to register memfd mempool. Reason: could not attach memfd SHM ID to pipe
+окт 24 04:13:47 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:13:47 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:13:47 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 1304090519
+окт 24 04:14:03 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:14:03 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 267190710
+окт 24 04:14:03 acer-biz pulseaudio[1274]: Failed to register memfd mempool. Reason: could not attach memfd SHM ID to pipe
+окт 24 04:14:03 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:14:03 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:14:03 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 2345824547
+окт 24 04:17:04 acer-biz pulseaudio[1274]: mmap() failed: Cannot allocate memory
+окт 24 04:17:04 acer-biz pulseaudio[1274]: Failed to create permanent mapping for memfd region with ID = 4143042921
+окт 24 04:25:32 acer-biz NetworkManager[1052]: <error> [1729736732.8204] audit: failed to open auditd socket: Protocol not supported
+-- Boot a2b89cbcf27447acb0bfca38aef7e26c --
+окт 24 06:03:34 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 06:03:37 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 06:03:37 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 06:03:43 acer-biz bluetoothd[1060]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 06:03:43 acer-biz bluetoothd[1060]: Failed to clear UUIDs: Failed (0x03)
+окт 24 06:03:53 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+окт 24 07:03:07 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+окт 24 07:22:59 acer-biz sshd[7906]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+-- Boot fae8f5028c6f476a8a7fd6008770a8e2 --
+окт 24 12:43:12 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 12:43:17 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 12:43:17 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 12:43:19 acer-biz bluetoothd[1049]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 12:43:19 acer-biz bluetoothd[1049]: Failed to clear UUIDs: Failed (0x03)
+окт 24 12:43:27 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 5a3791ed702947fabd9f66c31b8ea0f7 --
+окт 24 13:40:24 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 13:40:27 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 13:40:27 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 13:40:30 acer-biz bluetoothd[1058]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 13:40:30 acer-biz bluetoothd[1058]: Failed to clear UUIDs: Failed (0x03)
+окт 24 13:40:39 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+окт 24 14:40:06 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot bc62f3ee903645cba3a097899ef5d258 --
+окт 24 17:02:35 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 17:02:42 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 17:02:42 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 17:02:45 acer-biz bluetoothd[1071]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 17:02:45 acer-biz bluetoothd[1071]: Failed to clear UUIDs: Failed (0x03)
+окт 24 17:02:52 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+окт 24 18:02:46 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+окт 24 18:17:59 acer-biz sshd[2232]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+-- Boot 976ae8d7f03c4605b97ed57c8e148ef0 --
+окт 24 18:19:20 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 18:19:26 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 18:19:26 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 18:19:28 acer-biz bluetoothd[1068]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 18:19:28 acer-biz bluetoothd[1068]: Failed to clear UUIDs: Failed (0x03)
+окт 24 18:19:35 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot d855580d8d8040ef859138411eb35a41 --
+окт 24 18:39:35 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 18:39:39 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 18:39:39 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 18:39:41 acer-biz bluetoothd[1066]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 18:39:41 acer-biz bluetoothd[1066]: Failed to clear UUIDs: Failed (0x03)
+окт 24 18:39:48 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+окт 24 18:51:49 acer-biz sudo[1669]: pam_unix(sudo:auth): conversation failed
+окт 24 18:51:49 acer-biz sudo[1669]: pam_unix(sudo:auth): auth could not identify password for [biz]
+окт 24 18:51:49 acer-biz sudo[1669]:      biz : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/biz ; USER=root ; COMMAND=/usr/sbin/reboot
+-- Boot 1f15e342e1124e46951a6571cf968ced --
+окт 24 18:56:48 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+окт 24 18:56:52 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 18:56:52 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 18:56:54 acer-biz bluetoothd[1069]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 18:56:54 acer-biz bluetoothd[1069]: Failed to clear UUIDs: Failed (0x03)
+окт 24 18:56:59 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+-- Boot 15360ccbcdf1468a999321d5cfb5666f --
+ноя 21 22:57:19 acer-biz systemd[1]: Failed to find module 'autofs4'
+окт 24 18:59:17 acer-biz kernel: hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+ноя 21 22:57:20 acer-biz systemd-modules-load[855]: Error running install command '/sbin/modprobe --ignore-install snd  && { /sbin/modprobe --quiet --use-blacklist snd-ioctl32 ; /sbin/modprobe --quiet --use-black>
+ноя 21 22:57:20 acer-biz systemd-modules-load[855]: Failed to insert module 'snd_soc_tegra20_i2s': Invalid argument
+ноя 21 22:57:20 acer-biz systemd[1]: Failed to start Load Kernel Modules.
+окт 24 18:59:18 acer-biz systemd[1]: snapd.socket: Socket service snapd.service not loaded, refusing.
+окт 24 18:59:18 acer-biz systemd[1]: Failed to listen on Socket activation for snappy daemon.
+окт 24 18:59:19 acer-biz bluetoothd[1075]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+окт 24 18:59:19 acer-biz bluetoothd[1075]: Failed to clear UUIDs: Failed (0x03)
+окт 24 18:59:23 acer-biz systemd[1]: Failed to start Process error reports when automatic reporting is enabled.
+
+
+full log
+
+
 ноя 21 22:57:19 acer-biz kernel: Booting Linux on physical CPU 0x0
 ноя 21 22:57:19 acer-biz kernel: Linux version 6.6.7-postmarketos-grate (pmos@build) (armv7-alpine-linux-musleabihf-gcc (Alpine 1>
 ноя 21 22:57:19 acer-biz kernel: CPU: ARMv7 Processor [411fc090] revision 0 (ARMv7), cr=10c5387d
