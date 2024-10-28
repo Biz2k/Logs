@@ -1,1 +1,1 @@
-Acer A500
+logs from build
